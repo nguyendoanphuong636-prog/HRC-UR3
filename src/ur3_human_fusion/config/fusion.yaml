@@ -1,0 +1,12 @@
+dual_kinect_fusion:
+  ros__parameters:
+    front_topic: /kinect_front/human_skeleton_base
+    back_topic: /kinect_back/human_skeleton_base
+    output_topic: /human_skeleton_base
+    status_topic: /human_skeleton_fusion_status
+    target_frame: base_link
+    tracked_joint_ids: [0, 11, 12, 13, 14, 15, 16, 23, 24]
+    fusion_rate_hz: 20.0
+    max_input_age_sec: 0.35
+    max_stamp_skew_sec: 0.10
+    max_merge_dist: 0.20

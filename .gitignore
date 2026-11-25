@@ -1,0 +1,30 @@
+# ROS2 generated directories
+/build/
+/install/
+/log/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# ROS bags
+*.db3
+*.mcap
+*.bag
+*.bag2
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# Secrets
+.env
+*.pem
+*.key

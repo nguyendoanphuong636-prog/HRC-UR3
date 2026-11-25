@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>kinect_v2_ros2_driver</name>
+  <version>0.1.0</version>
+  <description>Read-only Kinect v2 RGB and depth publisher for ROS 2 Jazzy using libfreenect2.</description>
+  <maintainer email="maintainer@example.invalid">Research workspace</maintainer>
+  <license>MIT</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclcpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+  <export><build_type>ament_cmake</build_type></export>
+</package>
