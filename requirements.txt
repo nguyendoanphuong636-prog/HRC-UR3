@@ -1,0 +1,5 @@
+# Direct Python dependencies observed in source; versions not yet verified.
+# Install in a ROS-compatible Python virtual environment.
+numpy
+opencv-python
+mediapipe
